@@ -1,9 +1,9 @@
 package com.jon.pattern
 
-import com.jon.pattern.decorator.Beverage
-import com.jon.pattern.decorator.DarkRoast
-import com.jon.pattern.decorator.Espresso
-import com.jon.pattern.decorator.Mocha
+import com.jon.pattern.juejin.decorator.Beverage
+import com.jon.pattern.juejin.decorator.DarkRoast
+import com.jon.pattern.juejin.decorator.Espresso
+import com.jon.pattern.juejin.decorator.Mocha
 
 fun main(args: Array<String>) {
 
