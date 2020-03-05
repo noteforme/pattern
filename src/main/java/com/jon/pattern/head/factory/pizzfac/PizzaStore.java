@@ -12,7 +12,7 @@ public abstract class PizzaStore {
     }
 
 
-    Pizza orderPizza(String type) {
+    public Pizza orderPizza(String type) {
         Pizza pizza = createPizza(type);
         pizza.prepare();
         pizza.bake();

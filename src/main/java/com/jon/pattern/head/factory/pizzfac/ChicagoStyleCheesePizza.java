@@ -8,27 +8,9 @@ public class ChicagoStyleCheesePizza extends Pizza {
         topping.add("Shredded mozzarella  Cheese");
     }
 
-    void cut() {
+    @Override
+    public void cut() {
+        super.cut();
         System.out.println("Cutting the pizza into square slices");
-    }
-
-    @Override
-    void prepare() {
-        super.prepare();
-    }
-
-    @Override
-    void bake() {
-        super.bake();
-    }
-
-    @Override
-    void box() {
-        super.box();
-    }
-
-    @Override
-    void printOperation(String op) {
-        super.printOperation(op);
     }
 }

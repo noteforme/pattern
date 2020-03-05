@@ -1,4 +1,4 @@
-package com.jon.pattern.juejin.decorator
+package com.jon.pattern.head.decorator
 
 class Mocha : CondimentDecorator {
     val beverage: Beverage
