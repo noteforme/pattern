@@ -1,27 +1,25 @@
-package com.jon.pattern.head.factory.pizzfac;
+package com.jon.pattern.head.factory.simplefactory;
 
-public abstract   class PizzaStore {
+import com.jon.pattern.head.factory.pizzfac.Pizza;
+import com.jon.pattern.head.factory.pizzfac.SimplePizzaFactory;
 
-
-    public PizzaStore() {
-    }
+public class PizzaStore {
 
     SimplePizzaFactory factory;
+
     public PizzaStore(SimplePizzaFactory factory) {
         this.factory = factory;
     }
 
 
     public Pizza orderPizza(String type) {
-        Pizza pizza = createPizza(type);
+        Pizza pizza = factory.createPizza(type);
         pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
         return pizza;
     }
-
-    protected abstract Pizza createPizza(String type);
 
 
 }
