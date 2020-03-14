@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru;
+package com.jon.pattern.head.factory.guruAbstract;
 
 
 public class WinCheckbox implements  CheckBox {

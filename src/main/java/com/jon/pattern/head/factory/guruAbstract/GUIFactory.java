@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru;
+package com.jon.pattern.head.factory.guruAbstract;
 
 /**
  * // 抽象工厂接口声明了一组能返回不同抽象产品的方法。这些产品属于同一个系列

@@ -7,12 +7,14 @@ import com.jon.pattern.head.decorator.Mocha
 
 fun main(args: Array<String>) {
 
-    var beverage: Beverage = Espresso()
-    println(
-        beverage.description + " $" + beverage.cost()
-    )
-    var beverage2: Beverage = DarkRoast()
-    beverage2 = Mocha(beverage2)
+//    var beverage: Beverage = Espresso()
+//    println(
+//        beverage.description + " $" + beverage.cost()
+//    )
+//    var beverage2: Beverage = DarkRoast()
+//    beverage2 = Mocha(beverage2)
+//
+//    println(beverage2.description + " $" + beverage2.cost())
 
-    println(beverage2.description + " $" + beverage2.cost())
+    println(com.jon.pattern.DarkRoast().cost())
 }

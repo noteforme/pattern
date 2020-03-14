@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru;
+package com.jon.pattern.head.factory.guruAbstract;
 
 public class Application {
     private GUIFactory factory;
@@ -17,5 +17,4 @@ public class Application {
         button.paint();
         checkBox.paint();
     }
-
 }

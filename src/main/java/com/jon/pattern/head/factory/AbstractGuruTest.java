@@ -1,15 +1,11 @@
 package com.jon.pattern.head.factory;
 
-import com.jon.pattern.head.factory.guru.Application;
-import com.jon.pattern.head.factory.guru.GUIFactory;
-import com.jon.pattern.head.factory.guru.MacFactory;
-import com.jon.pattern.head.factory.guru.WinFactory;
-import com.sun.deploy.uitoolkit.WindowFactory;
+import com.jon.pattern.head.factory.guruAbstract.*;
 
 /**
  * https://refactoringguru.cn/design-patterns/abstract-factory
  */
-public class GuruTest {
+public class AbstractGuruTest {
     private static GUIFactory factory;
 
     public static void main(String[] args) throws Exception {
@@ -20,7 +16,7 @@ public class GuruTest {
         }else if (configOs.equals("Mac")){
             factory = new MacFactory();
         }else if (configOs.equals("Android")){
-            factory = new MacFactory();
+//            factory = new AndroidFactory();
         } else {
             throw  new Exception("未知系统");
         }
