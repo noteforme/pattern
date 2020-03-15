@@ -1,6 +1,6 @@
 package com.jon.pattern.head.factory;
 
-import com.jon.pattern.head.factory.gurufactory.Application;
+import com.jon.pattern.head.factory.guru.general.Application;
 
 /**
  * Guru工厂方法模式
