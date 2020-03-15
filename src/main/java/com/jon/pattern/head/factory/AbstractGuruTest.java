@@ -1,6 +1,6 @@
 package com.jon.pattern.head.factory;
 
-import com.jon.pattern.head.factory.guru.Abstract.*;
+import com.jon.pattern.guru.Abstract.*;
 
 /**
  * https://refactoringguru.cn/design-patterns/abstract-factory

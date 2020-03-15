@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.general;
+package com.jon.pattern.guru.general;
 
 public interface Button {
     void render();

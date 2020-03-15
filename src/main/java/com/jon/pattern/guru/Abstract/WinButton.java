@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.Abstract;
+package com.jon.pattern.guru.Abstract;
 
 // Concrete products are created by corresponding concrete
 // factories.

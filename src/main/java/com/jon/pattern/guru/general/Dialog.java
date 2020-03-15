@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.general;
+package com.jon.pattern.guru.general;
 
 // The creator class declares the factory method that must
 // return an object of a product class. The creator's subclasses

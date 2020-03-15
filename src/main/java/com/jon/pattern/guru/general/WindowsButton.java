@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.general;
+package com.jon.pattern.guru.general;
 
 public class WindowsButton implements Button {
     public void render() {

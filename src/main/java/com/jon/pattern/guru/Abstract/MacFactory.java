@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.Abstract;
+package com.jon.pattern.guru.Abstract;
 
 /**
  * 工厂生产产品

@@ -1,4 +1,4 @@
-package com.jon.pattern.head.factory.guru.Abstract;
+package com.jon.pattern.guru.Abstract;
 
 // Concrete factories produce a family of products that belong
 // to a single variant. The factory guarantees that the
