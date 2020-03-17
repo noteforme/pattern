@@ -1,6 +1,6 @@
 package com.jon.pattern.head.factory.simplefac;
 
-import com.jon.pattern.head.factory.firstfac.Pizza;
+import com.jon.pattern.head.factory.generalfac.Pizza;
 
 public class PizzaStore {
 
@@ -19,4 +19,10 @@ public class PizzaStore {
         pizza.box();
         return pizza;
     }
+
+    //伪代码
+//    public PizzaMenu orderMenu(String type){
+//        PizzaMenu pizzMenu = factory.createMenu(type);
+//        return  pizzMenu;
+//    }
 }

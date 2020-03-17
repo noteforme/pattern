@@ -1,9 +1,9 @@
 package com.jon.pattern.head.factory.simplefac;//package com.jon.pattern.head.factory;
 
-import com.jon.pattern.head.factory.firstfac.CheesePizza;
-import com.jon.pattern.head.factory.firstfac.GreekPizza;
-import com.jon.pattern.head.factory.firstfac.PepperoniPizza;
-import com.jon.pattern.head.factory.firstfac.Pizza;
+import com.jon.pattern.head.factory.generalfac.CheesePizza;
+import com.jon.pattern.head.factory.generalfac.GreekPizza;
+import com.jon.pattern.head.factory.generalfac.PepperoniPizza;
+import com.jon.pattern.head.factory.generalfac.Pizza;
 
 public class SimplePizzaFactory {
 
